@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="arttibute_selector.css">
+</head>
+
+<body>
+    <article1> I am article tag</article1>
+    <article2>I am article 2 tag</article2>
+    <article3> I am article 3 tag</article3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit m
+        aiores laborum hic consequuntur magnam vitae quidem corporis ea? Dolore
+        esse eveniet fuga voluptatem praesentium ad consequatur quos aut ex sit.</p>
+
+    <p style="color: red; font-size: 16px;">This is a red paragraph.</p>
+    <button style="background-color: blue; color: white;">Click Me</button>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Article with CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Select article elements with a specific attribute */
+        article[data-type] {
+            border: 2px solid black;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        /* Select links that open in a new tab */
+        a[target="_blank"] {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <article data-type="blog">
+        <h2>Understanding the HTML Article Tag</h2>
+        <p>The <code>&lt;article&gt;</code> tag is used to define self-contained content, such as news articles or blog posts.</p>
+        <a href="https://example.com" target="_blank">Read more</a>
+    </article>
+</body>
+</html>

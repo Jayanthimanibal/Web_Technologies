@@ -1,0 +1,50 @@
+article1{
+    color: blue;
+}
+/* Selects all <article> elements */
+article2 {
+    color: pink;
+    font-weight: bold;
+}
+
+/* Selects <article> elements that have any attribute */
+article3 {
+    background-color: yellow;
+}
+
+/* Selects <article> elements with a specific attribute value */
+article3[class="highlight"] {
+    border: 2px solid red;
+}
+[type="square"]{
+    color: brown;
+}
+p{
+    text-align: center;
+    color: red;
+    text-indent: 50px;
+    text-decoration: dotted;
+    text-shadow: 5px 5px 5px blue;
+    /*text-decoration-style: wave;
+    text-decoration-color: pink;
+    letter-spacing: 10px;
+    word-spacing: 0%;
+    line-height: 0px;*/
+
+}
+/*p{
+    font-size: large;
+    font-weight:800;
+    font-variant: inherit;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}*/
+
+p{
+    color:rgb(226,19, 0);
+    color: rgba(50,90,100,0.5);
+    color: #0000;
+    color: hsl(100deg,50%,50%);*/
+    color: hsla(100deg,50%,50%);
+}
