@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #f8f8f8;
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        /* Product Section */
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .price {
+            color: red;
+            font-weight: bold;
+        }
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        footer a {
+            color: lightblue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a> <!-- Link to Login Page -->
+    </nav>
+
+    <div class="section">
+        <h2>Sale starts at midnight 12:00 AM</h2>
+        <div class="products">
+                <div class="product">
+                
+                    <img src="../asserts/Product-1.png" alt="Fjallraven Backpack">
+                    <h3>Fjallraven Backpack</h3>
+                    <p>Price: <del>$109.95</del> $95.5</p>
+                    <p>Your perfect pack for everyday use and walks in the forest.</p>
+                </div>
+        
+                <div class="product">
+                    <img src="../asserts/Product-2.png" alt="Mens Casual T-Shirt">
+                    <h3>Mens Casual T-Shirt</h3>
+                    <p>Price: <del>$22.3</del> $17.5</p>
+                    <p>Slim-fitting style, contrast raglan long sleeve three-button.</p>
+                </div>
+        
+                <div class="product">
+                    <img src="../asserts/Product-3.png" alt="Mens Cotton Jacket">
+                    <h3>Mens Cotton Jacket</h3>
+                    <p>Price: <del>$55.99</del> $47.5</p>
+                    <p>Slim-fitting style, contrast raglan long sleeve three-button.</p>
+                </div>
+        
+                <div class="product">
+                    <img src="../asserts/Product-4.png" alt="Mens Casual Shirt">
+                    <h3>Mens Casual Shirt</h3>
+                    <p>Price: <del>$55.99</del> $15.99</p>
+                    <p>The color may slightly differ due to screen settings.</p>
+                </div>
+        
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Jewelry Collection</h2>
+        <div class="products">
+            <div class="product">
+                <img src="../asserts/Product-5.png" alt="Dragon Station Chain Bracelet">
+                <h3>Dragon Station Chain Bracelet</h3>
+                <p>Price: <del>$695.00</del> $500.00</p>
+                <p>Inspired by the mythical water dragon, the Naga.</p>
+            </div>
+    
+            <div class="product">
+                <img src="../asserts/Product-6.png" alt="Solid Gold Petite Pave">
+                <h3>Solid Gold Petite Pave</h3>
+                <p>Price: <del>$168.00</del> $150.00</p>
+                <p>Designed and sold by Hafeez Center in the USA.</p>
+            </div>
+    
+            <div class="product">
+                <img src="../asserts/Product-7.png" alt="White Gold Plated Princess">
+                <h3>White Gold Plated Princess</h3>
+                <p>Price: <del>$19.3</del> $15.5</p>
+                <p>Classic engagement solitaire diamond ring for her.</p>
+            </div>
+    
+            <div class="product">
+                <img src="../asserts/Product-8.png" alt="Owl Rose Gold">
+                <h3>Owl Rose Gold</h3>
+                <p>Price: <del>$28.0</del></p>
+                <p>Rose Gold Plated Double Plug Earrings.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Electronics</h2>
+        <div class="products">
+            <div class="product">
+                <img src="../asserts/Product-9.png" alt="Portable External Hard Drive">
+                <h2>Portable External Hard Drive</h2>
+                <p>Price: <s>$64</s> $50</p>
+                <p>USB 3.0 and USB 2.0 Compatibility Fast data transfers.</p>
+            </div>   
+                
+            <div class="product">
+                <img src="../asserts/Product-10.png" alt="SanDisk 1TB Internal SSD">
+                <h2>SanDisk 1TB Internal SSD</h2>   
+                <p>Price: <s>$109</s> $69</p>
+                <p>Easy upgrade for faster boot up, shutdown, application load and response.</p>
+            </div> 
+             
+            <div class="product">
+                <img src="../asserts/Product-11.png" alt="Silicon Power 256GB SSD">
+                <h2>Silicon Power 256GB SSD</h2>
+                <p>Price: <s>$89</s> $58</p>
+                <p>3D NAND flash are applied to deliver high transfer speed.</p>
+            </div> 
+    
+            <div class="product">
+                <img src="../asserts/Product-12.png" alt="WD 4TB Gaming HDD">
+                <h2>WD 4TB Gaming HDD</h2>
+                <p>Price: $214</p>
+                <p>Expand your PS4 gaming storage anywhere. Fast and reliable.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 30px; background-color: #333; color: white;">
+            
+            <!-- Customer Service -->
+            <div>
+                <h3>Customer Service</h3>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">FAQs</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Return Policy</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Shipping Info</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Track Order</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Payment Methods</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Help Center</a></p>
+            </div>
+    
+            <!-- Company Info -->
+            <div>
+                <h3>Company</h3>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">About Us</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Careers</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Affiliate Program</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Investors</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Sustainability</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Press</a></p>
+            </div>
+    
+            <!-- Connect With Us -->
+            <div>
+                <h3>Connect with Us</h3>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Facebook</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Twitter</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Instagram</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">LinkedIn</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">YouTube</a></p>
+                <p><a href="#" style="color: lightblue; text-decoration: none;">Pinterest</a></p>
+            </div>
+    
+            <!-- Contact Us -->
+            <div>
+                <h3>Contact Us</h3>
+                <p>Phone: +123-456-7890</p>
+                <p>Email: <a href="mailto:support@ecommerce.com" style="color: lightblue; text-decoration: none;">support@ecommerce.com</a></p>
+                <p>Address: 123 Market Street, City, Country</p>
+                <p>Working Hours: 9 AM - 6 PM</p>
+            </div>
+    
+        </div>
+    
+        <!-- Payment Methods -->
+        <div style="text-align: center; padding: 10px; background-color: #222;">
+            <h3>Secure Payments</h3>
+            <img src="../asserts/visa.png" alt="Visa" width="50">
+            <img src="../asserts/master-card.png" alt="MasterCard" width="50">
+            <img src="../asserts/paypal.png" alt="PayPal" width="50">
+            <img src="../asserts/amex.png" alt="Amex" width="50">
+        </div>
+    
+        <!-- Newsletter Subscription -->
+        <div style="text-align: center; padding: 20px; background-color: #333;">
+            <h3>Stay Updated!</h3>
+            <p>Subscribe to our newsletter for the latest offers and updates.</p>
+            <input type="email" placeholder="Enter your email" style="padding: 10px; width: 250px;">
+            <button style="padding: 10px; background-color: lightblue; border: none; cursor: pointer;">Subscribe</button>
+        </div>
+    
+        <!-- Copyright and Policies -->
+        <div style="text-align: center; padding: 10px; background-color: #222; color: white;">
+            <p>&copy; 2025 Online Store. All rights reserved. 
+                <a href="#" style="color: lightblue; text-decoration: none;">Privacy Policy</a> | 
+                <a href="#" style="color: lightblue; text-decoration: none;">Terms of Use</a> | 
+                <a href="#" style="color: lightblue; text-decoration: none;">Cookie Policy</a>
+            </p>
+        </div>
+    
+    </footer>
+
+ 
+    
+
+
+
+</body>
+</html>    
