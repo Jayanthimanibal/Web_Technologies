@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation Form</title>
+</head>
+<body>
+    <form action="" method="get" novalidate autocomplete="off">
+    <table>
+    <tr>
+        <td><label for="">Name:</td>
+        <td><input type="text" placeholder="Enter the name" value="" readonly></td>
+    </tr>
+    <tr>
+        <td><label for="">Email:</label></td>
+        <td><input type="text" required autofocus></td>//autofocus is highlight the text area
+    <tr>
+        
+        <td><label for="">Phone:</label></td>
+        <td><input type="tel" minlength="10" maxlength="10"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" pattern="[a-z]{3}[A-Z]{3}" id="password"></td>#[a-zA-Z]{6}
+    </tr>
+    <tr>
+        <td><label for="">Address:</label></td>
+        <td><textarea name="" id=""></textarea></td>
+    </tr>
+    <tr>
+            <td><label for="">DOB:</label></td>
+            <td><input type="date" min="2000-01-01" max="2006-12-31"></td>
+    </tr>
+    <tr>
+        <td><label for="">Gender:</label></td>
+        <td>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        </td>
+    </tr>
+    <tr>
+        <td><label for="">Skills:</label></td>
+        <td>
+            <input type="checkbox">HTML
+            <input type="checkbox">CSS
+            <input type="checkbox">JS  
+        </td>
+    </tr>
+    <td><label for=""> Upload the image in the url format</label>
+    </td>
+    <td><input type="url" name="" id=""></td>
+    <td>
+
+    </td>
+    <tr>
+        <td><label for="">Education:</label></td>
+            <td>
+                <select name="" id="">
+                    <option value="" disabled selected hidden ="Selct your education"></option>
+                    <optgroup>
+                        <option value="">CSE</option>
+                        <option value="">IT</option>
+                        <option value="">EEE</option>
+                        <option value="">ECE</option>
+                        <option value="">MECH</option>
+                    </optgroup>
+                </select>
+            </td>
+    </tr>
+    <tr>
+        <td><label for="">Experience:</label></td> 
+        <td><input type="range"></td>
+    </tr>
+     <tr>
+        <th colspan="1"><button>Submit</button></th>
+    </tr>
+
+    </table>
+</form>
+</body>
+</html>
