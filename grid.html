@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+
+    }
+
+    main {
+        border: 100px;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        display: grid;
+    }
+
+    section {
+
+        display: grid;
+     
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5px;
+        width: 50vw;
+        height: 50vw;
+        border: solid 2px black;
+    }
+
+    article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid;
+        font-size: 100%;
+        
+
+
+    }
+
+    section,
+    article:first-child {
+        background-color: orange;
+
+    }
+
+    section,
+    article:nth-child(2) {
+        background-color: red;
+    }
+
+    section,
+    article:nth-child(3) {
+        background-color: yellowgreen;
+    }
+
+    section,
+    article:nth-child(4) {
+        background-color: green;
+    }
+
+    section,
+    article:nth-child(5) {
+        background-color: blue;
+    }
+
+    section,
+    article:nth-child(6) {
+        background-color: violet;
+    }
+
+    section,
+    article:nth-child(7) {
+        background-color: grey;
+    }
+
+    section,
+    article:nth-child(8) {
+        background-color: yellow;
+    }
+
+    section,
+    article:nth-child(9) {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <main>
+        <section>
+            <article>1</article>
+            <article>2</article>
+            <article>3</article>
+            <article>4</article>
+            <article>5</article>
+            <article>6</article>
+            <article>7</article>
+            <article>8</article>
+            <article>9</article>
+        </section>
+    </main>
+</body>
+
+</html>
+
+
