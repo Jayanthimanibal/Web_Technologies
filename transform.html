@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+
+    }
+
+    section {
+        height: 200px;
+        border: solid;
+        width: 200px;
+        background-color: black;
+
+        /*1. Translate (Move)
+Moves an element along the X and Y axes.
+        transform:translate(200px) translate(200px);*/
+
+        /*2. Scale (Resize)
+Changes the size of an element.
+        
+        transform: skew(200deg) ;
+        transform: scale(3);
+        transform: scale(2);*/
+
+        /*3. Rotate (Spin)
+Rotates an element by a given degree.
+
+        transform: rotate(270deg);
+        transform: rotate(60deg);*/
+
+        /*transform: translate(50px, 100px) rotate(30deg) scale(1.2);*/
+
+        transition-property: all;
+        transition-duration: 5s;
+        transition-timing-function: ease;
+
+    }
+
+    section:hover {
+        /*transform: translate(200px 200px);*/
+        transform: translate(100px) rotate(50deg) scale(1.2);
+        border-radius: 100%;
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <section>
+
+    </section>
+</body>
+
+</html>
