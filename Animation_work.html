@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji and Heart Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            gap: 50px;
+        }
+
+        .emoji, .heart {
+            font-size: 50px;
+            position: relative;
+            animation: moveUpDown 1.5s infinite alternate ease-in-out;
+        }
+
+        .heart {
+            animation-delay: 0.75s;
+        }
+
+        @keyframes moveUpDown {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-30px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+        <div class="emoji">😊</div>
+        <div class="heart">❤️</div>
+    </div>
+</body>
+</html>

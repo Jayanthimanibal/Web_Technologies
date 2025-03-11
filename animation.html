@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: heart;
+    }
+
+    section {
+        height: 200px;
+        border: solid;
+        width: 200px;
+        animation-name: change;
+        animation-timing-function: ease;
+        animation-duration: 5s;
+        animation-iteration-count: alternate;
+        animation-delay: 2s;
+        animation-name: colorChange;
+    }
+
+    @keyframes change {
+        from {
+            transform: translateX(0px);
+        }
+
+        to {
+            transform: translateY(100px);
+        }
+    }
+
+    @keyframes colorChange {
+        0% {
+            background-color: red;
+            transform: translate(0, 0);
+            border-radius: 0%;
+        }
+
+        25% {
+            background-color: orange;
+            transform: translate(50px, 50px);
+            border-radius: 25%;
+
+        }
+
+        50% {
+            background-color: pink;
+            transform: translate(100px, 100px);
+            border-radius: 50%;
+        }
+
+        75% {
+            background-color: violet;
+            transform: translate(150px, 150px);
+            border-radius: 150%;
+        }
+
+        100% {
+            background-color: green;
+            transform: translate(200px, 200px);
+            border-radius: 200%;
+        }
+    }
+
+
+    section:hover {
+        /*transform: translate(200px 200px);*/
+        transform: translate(100px) rotate(50deg) scale(1.2);
+        border-radius: 200%;
+    }
+</style>
+
+<body>
+    <section> </section>
+</body>
+
+</html>
